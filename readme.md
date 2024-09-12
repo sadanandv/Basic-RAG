@@ -27,7 +27,7 @@ Additionally, ensure that the wordnet corpus is available for NLTK:
 python -c "import nltk; nltk.download('wordnet')"
 ```
 
-##Usage
+## Usage
 1. Load a PDF document: The code extracts text from a PDF file and processes it for embedding and retrieval.
 
 2. Document Embedding: The `embed_text` function tokenizes and generates embeddings for each document using BERT's `CLS` token.
