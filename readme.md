@@ -52,13 +52,13 @@ summary = summarizer(" ".join(retrieved_docs), max_length=max_length, min_length
 print("Generated Summary:", summary[0]['summary_text'])
 ```
 
-###Sample Output
+### Sample Output
 ```
 Retrieved Documents: [<retrieved document 1>, <retrieved document 2>, ...]
 Generated Summary: Manchester United has a long-standing reputation in football, characterized by its strategic gameplay and a strong lineup...
 ```
 
-##File Structure
+## File Structure
 - `main.py`: The main script that implements the RAG pipeline.
 - `test.pdf`: A sample PDF document used for retrieval purposes.
 - `requirements`.txt: List of required dependencies.
